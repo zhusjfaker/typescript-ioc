@@ -1,0 +1,29 @@
+{
+    "name": "apm",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc -w",
+        "start": "nodemon build/index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "cors": "^2.8.4",
+        "express": "^4.16.2",
+        "fs": "0.0.1-security",
+        "path": "^0.12.7",
+        "reflect-metadata": "^0.1.12"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.3",
+        "@types/express": "^4.0.39",
+        "@types/mongoose": "^4.7.32",
+        "@types/reflect-metadata": "^0.1.0",
+        "@types/request": "^2.0.9",
+        "request": "^2.83.0"
+    }
+}
